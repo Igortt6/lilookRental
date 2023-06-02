@@ -1,0 +1,61 @@
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class*="_icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+
+._icon-skype:before {
+	content: "\e911";
+}
+
+._icon-arrow-left:before {
+	content: "\e917";
+}
+
+._icon-arrow-right:before {
+	content: "\e919";
+}
+
+._icon-location:before {
+	content: "\e91d";
+}
+
+._icon-whats:before {
+	content: "\e91f";
+}
+
+._icon-viber:before {
+	content: "\e920";
+}
+
+._icon-phone-fill:before {
+	content: "\e921";
+}
+
+._icon-chat:before {
+	content: "\e922";
+}
+
+._icon-arrow-down:before {
+	content: "\e926";
+}
+
+._icon-arrow-top:before {
+	content: "\e92c";
+}
+
+._icon-phone:before {
+	content: "\e900";
+}

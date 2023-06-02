@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/_head.htm',{
+"title":"HomePage"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page page__main">
+			<section class="page__main-block main-block">
+				<div class="main-block__container">
+					<!-- Оболонка слайдера -->
+					<div class="main-block__slider swiper">
+						<!-- Частина слайдера, що рухається -->
+						<div class="main-block__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="main-block__slide swiper-slide">
+								<div class="swiper-slide__content">
+									<div class="swiper-slide__image">
+										<img src="@img/bg1.jpeg" alt="фон">
+									</div>
+									<h1 class="swiper-slide__title">Прокат суконь</h1>
+									<div class="swiper-slide__text">Lorem ipsum dolor sit amet consectetur, adipisicing
+										elit. Officia dolores exercitationem.</div>
+								</div>
+							</div>
+							<div class="main-block__slide swiper-slide">
+								<div class="swiper-slide__content">
+									<div class="swiper-slide__image"><img src="@img" alt="фон"></div>
+									<h1 class="swiper-slide__title">Прокат суконь 2 слайд</h1>
+									<div class="swiper-slide__text">Lorem ipsum dolor sit amet consectetur, adipisicing
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Якщо потрібна пагінація -->
+						<div class="main-block__swiper-pagination"></div>
+						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+						<button type="button" class="main-block__swiper-button-prev"></button>
+						<button type="button" class="main-block__swiper-button-next"></button>
+						<!-- Якщо потрібен скролбар -->
+						<div class="main-block__swiper-scrollbar"></div>
+					</div>
+				</div>
+
+			</section>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
