@@ -1,1 +1,25 @@
 // Заголовки, загальні БЕМ блоки та інше...
+.button {
+    // background-color: $secondDark;
+    // color: $white;
+
+
+
+    button {
+        border: 1px solid;
+        border-color: black;
+        // border-radius: rem(30);
+        padding: rem(7) rem(12);
+        font-weight: 300;
+        font-size: rem(14);
+        line-height: math.div(18, 14);
+        transition: all 0.3s ease 0s;
+        letter-spacing: em(3, 20);
+
+        &:hover {
+            background-color: rgba(210, 166, 165, 1);
+            color: $white;
+
+        }
+    }
+}
