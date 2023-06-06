@@ -1,10 +1,8 @@
 // Заголовки, загальні БЕМ блоки та інше...
 .button {
+
     // background-color: $secondDark;
     // color: $white;
-
-
-
     button {
         border: 1px solid;
         border-color: black;
@@ -21,5 +19,34 @@
             color: $white;
 
         }
+    }
+}
+
+.animated-right {
+    position: relative;
+    right: 10%;
+    opacity: 0;
+    transition: all 1s ease 0s;
+
+    ._watcher-view & {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+.animated-right2s {
+    position: relative;
+    right: 10%;
+    opacity: 0;
+    transition: all 1.3s ease 0s;
+
+    ._watcher-view & {
+        right: 0;
+        opacity: 1;
+    }
+
+    &._watcher-view {
+        right: 0;
+        opacity: 1;
     }
 }

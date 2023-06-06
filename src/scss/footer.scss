@@ -1,3 +1,43 @@
 //====================================================================================================
+.footer {
+    background-color: $bg-color-Header;
+    @include adaptiveValue("margin-top", 60, 20);
+
+    // .footer__container
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        @include adaptiveValue(" min-height", 80, 50);
+        align-items: center;
+    }
+
+    // .footer__social
+    &__social {
+        margin-left: rem(20);
+        display: flex;
+        gap: rem(30);
+        @include adaptiveValue("font-size", 30, 24);
+    }
+
+    // .footer__instagram
+    &__instagram {}
+
+    // .footer__viber
+    &__viber {}
+
+    // .footer__whatsup
+    &__whatsup {}
+
+    // .footer__phone
+    &__phone {}
+
+    // .footer__to-header
+    &__to-header {
+        @include adaptiveValue("font-size", 30, 24);
+        margin-right: rem(20);
+
+        // cursor: pointer;
+    }
+}
 
 //====================================================================================================

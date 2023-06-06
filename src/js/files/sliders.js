@@ -115,12 +115,15 @@ function initSliders() {
 			spaceBetween: 1,
 			autoHeight: true,
 			speed: 800,
+
 			//touchRatio: 0,
 			//simulateTouch: false,
 			loop: true,
 			//preloadImages: false,
 			//lazy: true,
-
+			zoom: {
+				maxRatio: 5,
+			},
 
 			// Ефекти
 			grabCursor: true,
