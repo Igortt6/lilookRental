@@ -7,6 +7,11 @@
 	height: rem(100);
 	color: $white;
 
+	&-catalog {
+		color: $mainColor;
+
+	}
+
 	&:hover {
 		background-color: $secondDark;
 

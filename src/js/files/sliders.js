@@ -49,10 +49,10 @@ function initSliders() {
 
 			// Ефекти
 			effect: 'fade',
-			// autoplay: {
-			// 	delay: 3000,
-			// 	disableOnInteraction: false,
-			// },
+			autoplay: {
+				delay: 3000,
+				disableOnInteraction: false,
+			},
 
 
 			// Пагінація
@@ -115,23 +115,16 @@ function initSliders() {
 			spaceBetween: 1,
 			autoHeight: true,
 			speed: 800,
-
-			//touchRatio: 0,
-			//simulateTouch: false,
 			loop: true,
 			//preloadImages: false,
-			//lazy: true,
-			zoom: {
-				maxRatio: 5,
-			},
 
 			// Ефекти
 			grabCursor: true,
 			effect: 'fade',
-			// autoplay: {
-			// 	delay: 3000,
-			// 	disableOnInteraction: false,
-			// },
+			autoplay: {
+				delay: 3000,
+				disableOnInteraction: false,
+			},
 
 			// Пагінація
 			// pagination: {

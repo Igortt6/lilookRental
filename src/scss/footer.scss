@@ -1,5 +1,10 @@
 //====================================================================================================
 .footer {
+    &:hover {
+        background-color: $secondDark;
+
+    }
+
     background-color: $bg-color-Header;
     @include adaptiveValue("margin-top", 60, 20);
 

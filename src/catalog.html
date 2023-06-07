@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/_head.htm',{
+"title":"Catalog"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header-Catalog.htm',{})
+		<main class="catalog catalog__main">
+			<div class="catalog__container">
+				<nav class="breadcrumbs">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item">
+							<a href="#" class="breadcrumbs__link _icon-arrow-right">Головна</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<span class="breadcrumbs__current">Каталог суконь</span>
+						</li>
+					</ul>
+				</nav>
+				<div class="catalog__title">Вибери сукню яка тобі довподоби</div>
+				<section class="catalog__wraper">
+					<div class="catalog__item item-catalog">
+						<div class="item-catalog__image-ibg">
+							<img src="@img/catalog-card/dress-1/main.jpg" alt="сукня">
+						</div>
+						<div class="item-catalog__title">Назва сукні</div>
+						<div class="item-catalog__price">Від 150 грн/доба</div>
+						<div class="item-catalog__buttons">
+							<div class="item-catalog__btn button"><button>Забронювати</button></div>
+							<div class="item-catalog__btn button"><button>Детальніше</button></div>
+						</div>
+					</div>
+					<div class="catalog__item item-catalog">
+						<div class="item-catalog__image-ibg">
+							<img src="@img/catalog-card/dress-1/main.jpg" alt="сукня">
+						</div>
+						<div class="item-catalog__title">Назва сукні</div>
+						<div class="item-catalog__price">Від 150 грн/доба</div>
+						<div class="item-catalog__buttons">
+							<div class="item-catalog__btn button"><button>Забронювати</button></div>
+							<div class="item-catalog__btn button"><button>Детальніше</button></div>
+						</div>
+					</div>
+					<div class="catalog__item item-catalog">
+						<div class="item-catalog__image-ibg">
+							<img src="@img/catalog-card/dress-1/main.jpg" alt="сукня">
+						</div>
+						<div class="item-catalog__title">Назва сукні</div>
+						<div class="item-catalog__price">Від 150 грн/доба</div>
+						<div class="item-catalog__buttons">
+							<div class="item-catalog__btn button"><button>Забронювати</button></div>
+							<div class="item-catalog__btn button"><button>Детальніше</button></div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
